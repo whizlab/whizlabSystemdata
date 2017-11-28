@@ -1,0 +1,71 @@
+<div class="container">
+        <div class="row">
+                <div class="col-sm">
+                        <a href="http://www.systemdata.in" alt="System Data"><img src="./assets/sd_logo.png" class="img-fluid" alt="system data logo"></a>
+                </div>
+
+        </div>
+
+        <div class="row" style="margin-top:60px;">
+                <div class="col-sm boxes">
+                        Your Web Browser
+                        <h1>{{this.device.browser | capsFirstLetter}}<br>{{this.device.browser_version | capsFirstLetter}}</h1>
+                </div>
+                <div class="col-sm boxes">
+                        Browser Connection
+                        <h1>{{this.onLine | capsFirstLetter}}</h1>
+                </div>
+                <div class="col-sm boxes">
+                        Your Operating System
+                        <h1>{{this.device.os | capsFirstLetter}}<br>{{this.device.os_version | capsFirstLetter}}</h1>
+                </div>
+
+        </div>
+
+        <div class="row" style="margin-top:40px;">
+                <div class="col-sm boxes">
+                       Language
+                        <h1>{{this.lang}}</h1>
+                </div>
+                <div class="col-sm boxes">
+                        OS Platform
+                        <h1>{{this.OSplatform | capsFirstLetter}}</h1>
+                </div>
+                <div class="col-sm boxes">
+                        Browser Code name
+                        <h1>{{this.appCodeName | capsFirstLetter}}</h1>
+                </div>
+
+        </div>
+        <div class="row" style="margin-top:40px;">
+                <div class="col-sm boxes">
+                        Javascript
+                        <h1>{{this.device.javascript | capsFirstLetter}}</h1>
+                </div>
+                <div class="col-sm boxes">
+                        Cookies
+                        <h1>{{this.cookieEnabled | capsFirstLetter}}</h1>
+                </div>
+                <div class="col-sm boxes">
+                        Max touch points on the device
+                        <h1>{{this.maxTouchPoints}}</h1>
+                </div>
+
+        </div>
+        <!-- Email form -->
+        <!--<div class="row" style="margin-top:10px;">
+                <p style="float:right;font-weight: bold;color:white;padding:9px; background-color: #003A6F;">
+                        <input type="text" name="name" id="name" placeholder="Your name" class="inputTxt">
+                        <input type="text" name="email" id="email" placeholder="Your Email " class="inputTxt">
+                        <input type="text" name="remail" id="remail" placeholder="Receipient Email " class="inputTxt">
+                        <input type="button" name="submit" id="submit"   class="inputBtn" value="Send details">
+                </p>
+        </div>-->
+        <div class="row">
+                <p style="float:right;font-weight: bold;color:white;padding:9px; background-color: grey;">Email for queries or any other information which you feel should be included in the about displayed
+                        information, please email to > contact@systemdata.in</p>
+        </div>
+        <div class="row" style="float:right;">
+                        <p style="float:right;font-weight: bold;color:grey;padding:9px;font-size:11px;">Crafted by <a href="http://www.whizlab.in" target="_blank">Whizlab</a></p>
+                </div>
+</div>
